@@ -6,6 +6,7 @@
 ###### PE和attention的工作在PE.py，SELF_ATTENTION中，测试结果写在这两个文件中。
 ###### DDPM的内容见于RNN_for_DDPM(由于这里使用的rnn和第一问比loss函数发生变化，进行了部分的改写)和DDPM(DDPM.py)，DDPM使用了上面手动实现rnn,PE的结果。
 ###### 我是用的IDE是pycharm,__pycache__是其自动生成的，防止报错也一并上传，data中是训练数据，导入数据是记得修改路径，否则可能报错
+# “可视化”中展示了没有batch和bagging的rnn结果，以及DDPM中q_x的可视化，其他结果有的结果不好，有的通过print打印，就没有展示
 # 下面分文件下介绍一下我的工作
 ### main.py
 ###### 这个文件中导入了数据，把rnn的三种形式（上面一段有提到，下面还会提到）的结果展示出来了。
